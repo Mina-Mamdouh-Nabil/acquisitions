@@ -87,3 +87,7 @@
 {"level":"info","message":"::1 - - [30/Nov/2025:01:10:09 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 108 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [30/Nov/2025:01:12:44 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 33 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [06/Dec/2025:01:08:14 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [06/Dec/2025:01:08:41 +0000] \"GET /api/users HTTP/1.1\" 200 513 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36\"","service":"acquisitions-api"}

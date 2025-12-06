@@ -6,6 +6,7 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import router from '#routes/auth.routes.js';
 import securityMiddleware from '#middleware/security.middleware.js';
+import userRouter from '#routes/users.routes.js'
 
 const app = express();
 
@@ -33,5 +34,6 @@ app.get('/api', (req, res) => {
 })
 
 app.use('/api/auth', router);
+app.use('/api/users', userRouter);
 
 export default app;
